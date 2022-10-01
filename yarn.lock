@@ -1057,9 +1057,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@google-cloud/profiler@npm:5.0.2":
-  version: 5.0.2
-  resolution: "@google-cloud/profiler@npm:5.0.2"
+"@google-cloud/profiler@npm:5.0.3":
+  version: 5.0.3
+  resolution: "@google-cloud/profiler@npm:5.0.3"
   dependencies:
     "@google-cloud/common": ^4.0.0
     "@google-cloud/logging-min": ^10.0.0
@@ -1072,32 +1072,10 @@ __metadata:
     parse-duration: ^1.0.0
     pprof: 3.2.0
     pretty-ms: ^7.0.0
-    protobufjs: ~7.0.0
+    protobufjs: ~7.1.0
     semver: ^7.0.0
     teeny-request: ^8.0.0
-  checksum: e266895f3735001ed6213de091964f45afb117e47b34cfb2a35932e2eeea89542fac2d42104c88fb961d2a79bbc9f6501e34fca6ec07fd4eb39e2fbc602c3e5e
-  languageName: node
-  linkType: hard
-
-"@google-cloud/profiler@patch:@google-cloud/profiler@npm:5.0.2#.yarn/patches/@google-cloud-profiler-npm-5.0.2-f2d85fda64.patch::locator=%40zws.im%2Fzws%40workspace%3A.":
-  version: 5.0.2
-  resolution: "@google-cloud/profiler@patch:@google-cloud/profiler@npm%3A5.0.2#.yarn/patches/@google-cloud-profiler-npm-5.0.2-f2d85fda64.patch::version=5.0.2&hash=0bba9a&locator=%40zws.im%2Fzws%40workspace%3A."
-  dependencies:
-    "@google-cloud/common": ^4.0.0
-    "@google-cloud/logging-min": ^10.0.0
-    "@types/console-log-level": ^1.4.0
-    "@types/semver": ^7.0.0
-    console-log-level: ^1.4.0
-    delay: ^5.0.0
-    extend: ^3.0.2
-    gcp-metadata: ^4.0.0
-    parse-duration: ^1.0.0
-    pprof: 3.2.0
-    pretty-ms: ^7.0.0
-    protobufjs: ~7.0.0
-    semver: ^7.0.0
-    teeny-request: ^8.0.0
-  checksum: 06de5d5645a56fbc904ce3fe3c294c31f1d1336f6fa8de3486db59ecdf7a89f620f33c50359c285f33cdc34cfc5b77a790f261547056543f6810f2c0448031f0
+  checksum: dd8a37c563adbaf0588cf77df904854e6eb3b20cd62060247c0210e92d26bf6292e91f682beec6dab01128bd67633db0679cbe4106d8b7d96cfc5a0dc3570e36
   languageName: node
   linkType: hard
 
@@ -2796,7 +2774,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@zws.im/api@workspace:apps/api"
   dependencies:
-    "@google-cloud/profiler": 5.0.2
+    "@google-cloud/profiler": 5.0.3
     "@jonahsnider/prettier-config": 1.1.2
     "@jonahsnider/util": 9.0.1
     "@jonahsnider/xo-config": 5.2.0
@@ -9441,7 +9419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:7.0.0, protobufjs@npm:^7.0.0, protobufjs@npm:~7.0.0":
+"protobufjs@npm:7.0.0, protobufjs@npm:^7.0.0":
   version: 7.0.0
   resolution: "protobufjs@npm:7.0.0"
   dependencies:
@@ -9483,6 +9461,26 @@ __metadata:
     pbjs: bin/pbjs
     pbts: bin/pbts
   checksum: 80e9d9610c3eb66f9eae4e44a1ae30381cedb721b7d5f635d781fe4c507e2c77bb7c879addcd1dda79733d3ae589d9e66fd18d42baf99b35df7382a0f9920795
+  languageName: node
+  linkType: hard
+
+"protobufjs@npm:~7.1.0":
+  version: 7.1.2
+  resolution: "protobufjs@npm:7.1.2"
+  dependencies:
+    "@protobufjs/aspromise": ^1.1.2
+    "@protobufjs/base64": ^1.1.2
+    "@protobufjs/codegen": ^2.0.4
+    "@protobufjs/eventemitter": ^1.1.0
+    "@protobufjs/fetch": ^1.1.0
+    "@protobufjs/float": ^1.0.2
+    "@protobufjs/inquire": ^1.1.0
+    "@protobufjs/path": ^1.1.2
+    "@protobufjs/pool": ^1.1.0
+    "@protobufjs/utf8": ^1.1.0
+    "@types/node": ">=13.7.0"
+    long: ^5.0.0
+  checksum: ae41669b1b0372fb1d49f506f2d1f2b0fb3dc3cece85987b17bcb544e4cef7c8d27f480486cdec324146ad0a5d22a327166a7ea864a9b3e49cc3c92a5d3f6500
   languageName: node
   linkType: hard
 

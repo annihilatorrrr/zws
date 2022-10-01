@@ -34,7 +34,7 @@
 	},
 	"prettier": "@jonahsnider/prettier-config",
 	"dependencies": {
-		"@google-cloud/profiler": "5.0.2",
+		"@google-cloud/profiler": "5.0.3",
 		"@jonahsnider/util": "9.0.1",
 		"@nestjs/common": "9.1.2",
 		"@nestjs/config": "2.2.0",
