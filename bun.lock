@@ -36,7 +36,7 @@
         "envalid": "8.1.1",
         "googleapis": "171.4.0",
         "millify": "^6.1.0",
-        "nestjs-zod": "5.1.1",
+        "nestjs-zod": "5.2.1",
         "pg": "8.20.0",
         "redis": "5.11.0",
         "reflect-metadata": "0.2.2",
@@ -1638,7 +1638,7 @@
 
     "neotraverse": ["neotraverse@0.6.18", "", {}, "sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA=="],
 
-    "nestjs-zod": ["nestjs-zod@5.1.1", "", { "dependencies": { "deepmerge": "^4.3.1" }, "peerDependencies": { "@nestjs/common": "^10.0.0 || ^11.0.0", "@nestjs/swagger": "^7.4.2 || ^8.0.0 || ^11.0.0", "rxjs": "^7.0.0", "zod": "^3.25.0 || ^4.0.0" }, "optionalPeers": ["@nestjs/swagger"] }, "sha512-pXa9Jrdip7iedKvGxJTvvCFVRCoIcNENPCsHjpCefPH3PcFejRgkZkUcr3TYITRyxnUk7Zy5OsLpirZGLYBfBQ=="],
+    "nestjs-zod": ["nestjs-zod@5.2.1", "", { "dependencies": { "deepmerge": "^4.3.1" }, "peerDependencies": { "@nestjs/common": "^10.0.0 || ^11.0.0", "@nestjs/swagger": "^7.4.2 || ^8.0.0 || ^11.0.0", "rxjs": "^7.0.0", "zod": "^3.25.0 || ^4.0.0" }, "optionalPeers": ["@nestjs/swagger"] }, "sha512-pGfOsLVcXJKB6vdh59YMN9o3hvaOKFISo1EU9IUCMGl5yb0JsvY6A0ZnNnTmwb8zs7o1cWwC8GeVrawvnL8/rw=="],
 
     "netmask": ["netmask@2.0.2", "", {}, "sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg=="],
 
