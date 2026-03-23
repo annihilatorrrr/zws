@@ -11,6 +11,7 @@
 		"module": "esnext",
 		"moduleResolution": "bundler",
 		"noEmit": true,
+		"noUncheckedSideEffectImports": false,
 		"paths": {
 			"@/*": ["./*"]
 		},
@@ -20,6 +21,7 @@
 			}
 		],
 		"resolveJsonModule": true,
+		"rootDir": ".",
 		"skipLibCheck": true,
 		"strict": true,
 		"target": "es2022"
