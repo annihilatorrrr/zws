@@ -3,6 +3,12 @@
 	"buildCommand": "bun run build",
 	"cleanUrls": true,
 	"framework": "nextjs",
+	"git": {
+		"deploymentEnabled": {
+			"*": false,
+			"main": true
+		}
+	},
 	"installCommand": "bun install --frozen-lockfile",
 	"outputDirectory": "apps/web/.next"
 }
