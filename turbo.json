@@ -1,8 +1,22 @@
 {
 	"$schema": "https://turbo.build/schema.json",
+	"globalPassThroughEnv": [
+		"DATABASE_URL",
+		"REDIS_URL",
+		"SENTRY_DSN",
+		"GOOGLE_API_KEY",
+		"ADMIN_USERNAME",
+		"BLOCKED_HOSTNAMES",
+		"HOSTNAME",
+		"SHORT_CHARS",
+		"SHORT_LENGTH",
+		"SHORT_REWRITES",
+		"SHORTENED_BASE_URL"
+	],
 	"tasks": {
 		"build": {
 			"dependsOn": ["^build"],
+			"env": ["API_URL", "WEBSITE_URL"],
 			"outputs": [".next/**", "!.next/cache/**", "dist/**"]
 		}
 	}
