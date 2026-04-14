@@ -241,3 +241,6 @@ $RECYCLE.BIN/
 
 # Turbo
 .turbo
+
+# Next.js
+next-env.d.ts

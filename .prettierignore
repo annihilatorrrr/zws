@@ -242,6 +242,9 @@ $RECYCLE.BIN/
 # Turbo
 .turbo
 
+# Next.js
+next-env.d.ts
+
 # Files Biome can format
 **/*.ts
 **/*.tsx
