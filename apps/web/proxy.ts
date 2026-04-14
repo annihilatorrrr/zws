@@ -1,5 +1,4 @@
-import { next } from '@vercel/edge';
-import type { NextRequest } from 'next/server';
+import { type NextRequest, NextResponse } from 'next/server';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -9,7 +8,7 @@ if (!API_URL) {
 
 const apiUrl = new URL(API_URL);
 
-export default function middleware(request: NextRequest): Response {
+export function proxy(request: NextRequest): NextResponse {
 	// Redirect to API subdomain
 	const url = new URL(request.url);
 
@@ -17,7 +16,7 @@ export default function middleware(request: NextRequest): Response {
 	url.port = apiUrl.port;
 	url.pathname = request.nextUrl.pathname.slice('/api/'.length);
 
-	return next({ headers: { location: url.toString() }, status: 301 });
+	return NextResponse.redirect(url, 301);
 }
 
 // Configure matcher to only run middleware on API routes

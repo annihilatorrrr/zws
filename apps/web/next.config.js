@@ -12,6 +12,7 @@ const nextConfig = {
 			permanent: true,
 		},
 	],
+	allowedDevOrigins: ['zws.im.localhost'],
 };
 
 module.exports = nextConfig;

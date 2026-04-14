@@ -10,7 +10,7 @@ function getBaseApiUrl() {
 		return process.env.API_URL;
 	}
 
-	return 'http://localhost:3001';
+	return 'https://api.zws.im.localhost';
 }
 
 module.exports = getBaseApiUrl;
