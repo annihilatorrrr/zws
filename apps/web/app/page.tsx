@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { AboutUs } from '@/app/components/about-us/about-us';
-import { LightSpot } from '@/app/components/background-decorations/light-spot';
-import { DividerLine } from '@/app/components/divider-line';
-import { Faq } from '@/app/components/faq/faq';
-import { H1 } from '@/app/components/headings/h1';
-import { H2 } from '@/app/components/headings/h2';
-import { RandomText } from '@/app/components/random-text';
-import { ShortenUrlForm } from '@/app/components/shorten-url/shorten-url-form';
+import { AboutUs } from './components/about-us/about-us';
+import { LightSpot } from './components/background-decorations/light-spot';
+import { DividerLine } from './components/divider-line';
+import { Faq } from './components/faq/faq';
+import { H1 } from './components/headings/h1';
+import { H2 } from './components/headings/h2';
+import { RandomText } from './components/random-text';
+import { ShortenUrlForm } from './components/shorten-url/shorten-url-form';
 
 export const metadata: Metadata = {
 	alternates: {
