@@ -11,6 +11,11 @@ const nextConfig = {
 			destination: '/api-docs',
 			permanent: true,
 		},
+		{
+			source: '/api/:path*',
+			destination: `${process.env.API_URL}/:path*`,
+			permanent: true,
+		},
 	],
 	allowedDevOrigins: ['zws.im.localhost'],
 };
