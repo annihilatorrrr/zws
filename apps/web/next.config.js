@@ -1,8 +1,3 @@
-const dotenv = require('dotenv');
-const path = require('node:path');
-
-dotenv.config({ path: path.join(__dirname, '..', '..', '.env') });
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	env: {
