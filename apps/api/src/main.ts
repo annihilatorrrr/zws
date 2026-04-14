@@ -8,8 +8,9 @@ import { TrpcService } from './trpc/trpc.service.js';
 
 const app = await NestFactory.create(AppModule, {
 	abortOnError: process.env['NODE_ENV'] !== 'development',
-	cors: true,
 });
+
+app.enableCors();
 
 const trpcService = app.get(TrpcService);
 
