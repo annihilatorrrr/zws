@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { Button } from '../components/button';
-import { H1 } from '../components/headings/h1';
+import { Button } from '@/app/components/button';
+import { H1 } from '@/app/components/headings/h1';
 
 export default function UrlBlockedPage() {
 	return (

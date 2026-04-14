@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { H1 } from '../components/headings/h1';
-import { SwaggerUi } from '../components/swagger-ui';
+import { H1 } from '@/app/components/headings/h1';
+import { SwaggerUi } from '@/app/components/swagger-ui';
 
 const openapiSchemaPath = new URL('/openapi.json', process.env.NEXT_PUBLIC_API_URL);
 

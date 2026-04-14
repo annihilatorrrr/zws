@@ -1,13 +1,13 @@
 import { notFound, RedirectType, redirect } from 'next/navigation';
 import UrlBlockedPage from './url-blocked-page';
 
+export const runtime = 'edge';
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 if (!API_URL) {
 	throw new TypeError('Missing NEXT_PUBLIC_API_URL env var');
 }
-
-export const runtime = 'edge';
 
 export default async function UrlSubpathPage(props: {
 	params: Promise<{ short: string }>;
