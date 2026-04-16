@@ -8,5 +8,9 @@
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
+	},
+	"vars": {
+		"NEXT_PUBLIC_API_URL": "https://api.zws.im",
+		"NEXT_PUBLIC_WEBSITE_URL": "https://zws.im"
 	}
 }
