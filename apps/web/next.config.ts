@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next';
+
+export default {
 	env: {
 		NEXT_PUBLIC_WEBSITE_URL: process.env.WEBSITE_URL,
 		NEXT_PUBLIC_API_URL: process.env.API_URL,
@@ -18,6 +19,4 @@ const nextConfig = {
 		},
 	],
 	allowedDevOrigins: ['zws.im.localhost'],
-};
-
-module.exports = nextConfig;
+} satisfies NextConfig;
