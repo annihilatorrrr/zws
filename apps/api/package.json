@@ -16,7 +16,7 @@
 		"@nestjs/common": "11.1.19",
 		"@nestjs/core": "11.1.19",
 		"@nestjs/platform-express": "11.1.19",
-		"@nestjs/swagger": "11.2.7",
+		"@nestjs/swagger": "11.3.0",
 		"@ntegral/nestjs-sentry": "4.0.1",
 		"@sentry/bun": "10.48.0",
 		"@trpc/server": "11.16.0",
@@ -36,8 +36,8 @@
 		"zod": "4.3.6"
 	},
 	"devDependencies": {
-		"@nestjs/cli": "11.0.19",
-		"@nestjs/schematics": "11.0.10",
+		"@nestjs/cli": "11.0.21",
+		"@nestjs/schematics": "11.1.0",
 		"@tsconfig/node24": "24.0.4",
 		"@tsconfig/strictest": "2.0.8",
 		"@types/cors": "2.8.19",
