@@ -36,5 +36,5 @@ jobs:
       - name: Build and test
         run: bun run test
         env:
-          API_URL: https://api.zws.im
-          WEBSITE_URL: https://zws.im
+          NEXT_PUBLIC_API_URL: https://api.zws.im
+          NEXT_PUBLIC_WEBSITE_URL: https://zws.im
